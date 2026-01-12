@@ -1,0 +1,25 @@
+print("Welcome to Nathan Collection of Movies & TV Shows!")
+#Feel free to change introduction.
+print("\n Version 00.01.00")
+
+print("\n This program is a list of all the Movies and TV Shows I watch!")
+#Feel free to change this to whatever you want.
+
+name = input("\n Enter your name: ")
+print("\n Welcome, " + name)
+#Allows User input.
+
+if name == "DEV":
+    print("\n Welcome back, DEVELOPER.")
+#This allows DEVELOPERS to feel recognized(?)
+
+print("\n Select one option: ")
+print("Options: Jarhead I [Movie / JI], Paul [Movie / P], Young Sheldon [Show / YS], The Walling Dead [Show / TWD], Violet Evergarden [Show / VE] , MR, Robot [Show / MRR], Adolescence [Show / A], Dahmer [Show / D], Breaking Bad [Show / BB], Naruto [SHow / N], Death Note [Show / DN], Unlocked: A Jail Eperiment [Show / UJE], The Queen's Gambit [Show / TQG], Monster: The ED Gein Story [Show / MEDS], Black Mirror [Show / BM], Demon Slayer [Show / DS], Squid Game [Show / SQ], Alice in Borderland [Show / AB], Baki [Show / B], Ouran High School Host Club [Show / OC], Narcos [Show / N], Komi Can't Communicate [Show / KCC], Kakegurui [Show / K], Baki Hanma [Show / BH], Castlevania [Show / C], Kengan Ashura [Show / KA], All Quiet on the Western Front [Movie / AF], 1917 [Movie / 1], Heartstopper [Show / H], Greatest Events of WWII in Color [Show / GC], King the Land [Show / KL], AJIN: Demi-Human [ Show / ADH], High-Rise Invasion [Show / HRI], My Demon [Show / MD], Romantic Killer [Show / RK], Tokyo Swindlers [Show / TS], Romantics Anonymous [Show / RA], Death Note: Live Action [Movie / DNLA], Host [Movie / H], B: The Beginning [Show / BTH], Kakegurui Twin [Show / KT], A.I.C.O [Show / AO], Dragon's Dogma [Show / DD], Sol Levante [Show / SL].")
+
+document = input()
+
+if document.upper() == "JI":
+    print("\n Jarhead I | Date of Release: 2005 | Watch At: Netflix, DVD/BLUERAY, Apple-TV, Amazon Prime, Roku-TV | Average Price: $10 [DVD/BLUERAY]")
+
+if document.upper() == "P":
+    print("\n Paul | Date of Release: 2011 | Watch At: Netflic DVD/BLUERAY, Apple-TV, Amazon Prime, Roku-TV | Average Price: $10 [DVD/BLUERAY]")
