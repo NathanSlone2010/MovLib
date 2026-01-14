@@ -19,7 +19,10 @@ print("Options: Jarhead I [Movie / JI], Paul [Movie / P], Young Sheldon [Show / 
 document = input()
 
 if document.upper() == "JI":
-    print("\n Jarhead I | Date of Release: 2005 | Watch At: Netflix, DVD/BLUERAY, Apple-TV, Amazon Prime, Roku-TV | Average Price: $10 [DVD/BLUERAY]")
+    print("\n Jarhead I | Date of Release: 2005 | Watch At: Torrent Sites, Netflix, DVD/BLUERAY, Apple-TV, Amazon Prime, Roku-TV | Average Price: $10 [DVD / BLUERAY]")
 
 if document.upper() == "P":
-    print("\n Paul | Date of Release: 2011 | Watch At: Netflic DVD/BLUERAY, Apple-TV, Amazon Prime, Roku-TV | Average Price: $10 [DVD/BLUERAY]")
+    print("\n Paul | Date of Release: 2011 | Watch At: Torrent Sites, Netflix DVD/BLUERAY, Apple-TV, Amazon Prime, Roku-TV | Average Price: $10 [DVD / BLUERAY]")
+
+if document.upper() == "YS":
+    print("Young Sheldon | Date of Release: 2017 | Watch At: Torrent Sites, Netflix, HBO Max, Amazon Prime, Apple-TV | Average Price: $20 [DVD / BLUERAY]")
